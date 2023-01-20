@@ -1,0 +1,6 @@
+lda 1000
+cma 
+sta 1001
+inr a
+sta 1002
+hlt
