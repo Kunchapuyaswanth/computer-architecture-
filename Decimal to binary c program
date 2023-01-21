@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	int a[10],i;
+	int n;
+	printf("enter the decimal number ::");
+	scanf("%d", &n);
+	for(i=0;n>0;i++)
+	{
+		a[i]=n%2;
+		n=n/2;	
+	}
+	printf("The binary number is:: ");	
+	for(i=i-1;i>=0;i--)
+	{
